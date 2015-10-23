@@ -5,8 +5,7 @@
 # getwd() >> "./UCI HAR Dataset"
 
 #load libraries
-library(dplyr)
-library(plyr)
+library(dplyr,plyr)
 
 #read features and activities' labels
 features_list<-read.table("features.txt") #In this data set: (8*3+9) signals *17 estimated variables =561
