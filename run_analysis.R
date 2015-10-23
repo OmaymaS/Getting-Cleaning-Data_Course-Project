@@ -1,5 +1,5 @@
 #Getting & Cleaning Data - Course Project Draft
-#by:Omayma Said 23-Oct-2015
+#by:OmaymaS 23-Oct-2015
 
 # make sure the working directory is as follows
 # getwd() >> "./UCI HAR Dataset"
