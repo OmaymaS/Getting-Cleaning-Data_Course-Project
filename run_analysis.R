@@ -7,10 +7,6 @@
 #load libraries
 library(dplyr,plyr)
 
-#read features and activities' labels
-features_list<-read.table("features.txt") #In this data set: (8*3+9) signals *17 estimated variables =561
-activity_labels<-read.table("activity_labels.txt")
-
 #read train data
 X_train_data<-read.table("./train/x_train.txt")  #dim(X_train_data) 7352  561
 Y_train_data<-read.table("./train/y_train.txt")  #dim(Y_train_data) 7352    1
@@ -29,6 +25,9 @@ subject_merged<-rbind(subject_train,subject_test)
 
 # Step 2
 # get all feature names
+#read features and activities' labels
+activity_labels<-read.table("activity_labels.txt")
+features_list<-read.table("features.txt") #In this data set: (8*3+9) signals *17 estimated variables =561
 features_names<-features_list[[2]] #or features_names<-features_list$V2
 
 #Extract the names of the columns with "mean()" and get their indecies
