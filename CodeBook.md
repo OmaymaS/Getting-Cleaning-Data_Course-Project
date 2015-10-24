@@ -35,11 +35,7 @@ The set of variables that were estimated from these signals and extracted by run
 
 which gives (8*3+9)signals*2=66 variable.
 
-**Notes: 
-
-======
-
-- Features are normalized and bounded within [-1,1].**
+**Notes: Features are normalized and bounded within [-1,1].**
 
 * `tbodyaccmeanx` 
 
