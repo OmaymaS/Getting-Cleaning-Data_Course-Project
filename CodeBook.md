@@ -47,132 +47,392 @@ which gives (8*3+9)signals*2=66 variable.
 
        Values [-1 to 1]       
 
-* `tbodyaccmeany`        
+* `tbodyaccmeany`  
+
+       Mean of the time domain signal for body acceleration in the Y axis
+
+       Values [-1 to 1]  
 
 * `tbodyaccmeanz`
+
+       Mean of the time domain signal for body acceleration in the Z axis
+
+       Values [-1 to 1] 
        
 * `tgravityaccmeanx` 
-    
+ 
+       Mean of the time domain signal for gravity acceleration in the X axis
+
+       Values [-1 to 1]   
+       
 * `tgravityaccmeany`     
+ 
+       Mean of the time domain signal for gravity acceleration in the Y axis
 
+       Values [-1 to 1]  
+       
 * `tgravityaccmeanz`    
+ 
+       Mean of the time domain signal for gravity acceleration in the Z axis
 
+       Values [-1 to 1]  
+       
 *`tbodyaccjerkmeanx`    
+ 
+       Mean of the time domain signal for body jerk in the X axis
+
+       Values [-1 to 1]  
 
 *`tbodyaccjerkmeany`  
+
+       Mean of the time domain signal for body jerk in the Y axis
+
+       Values [-1 to 1]  
  
 *`tbodyaccjerkmeanz`    
 
-* `tbodygyromeanx`       
+       Mean of the time domain signal for body jerk in the Z axis
 
-* `tbodygyromeany`       
+       Values [-1 to 1]  
 
-* `tbodygyromeanz`       
+* `tbodygyromeanx`  
+
+       Mean of the time domain signal for gyroscope in the X axis
+
+       Values [-1 to 1] 
+
+* `tbodygyromeany`   
+
+       Mean of the time domain signal for gyroscope in the Y axis
+
+       Values [-1 to 1] 
+
+* `tbodygyromeanz`     
+
+       Mean of the time domain signal for gyroscope in the Z axis
+
+       Values [-1 to 1] 
 
 * `tbodygyrojerkmeanx` 
+
+       Mean of the time domain signal for gyroscope jerk in the X axis
+
+       Values [-1 to 1] 
  
 * `tbodygyrojerkmeany`   
 
+       Mean of the time domain signal for gyroscope jerk in the Y axis
+
+       Values [-1 to 1] 
+       
 * `tbodygyrojerkmeanz`   
 
-* `tbodyaccmagmean`      
+       Mean of the time domain signal for gyroscope jerk in the Z axis
 
-* `tgravityaccmagmean`   
+       Values [-1 to 1] 
+       
+* `tbodyaccmagmean` 
 
+       Mean of the time domain signal for body acceleration magnitude
+
+       Values [-1 to 1] 
+
+* `tgravityaccmagmean`  
+
+       Mean of the time domain signal for gravity acceleration magnitude
+
+       Values [-1 to 1] 
+       
 * `tbodyaccjerkmagmean` 
 
-* `tbodygyromagmean`     
+       Mean of the time domain signal for body acceleration jerk magnitude
+
+       Values [-1 to 1] 
+
+* `tbodygyromagmean` 
+
+       Mean of the time domain signal for body gyroscope magnitude
+
+       Values [-1 to 1] 
 
 * `tbodygyrojerkmagmean` 
+       
+       Mean of the time domain signal for body gyroscope jerk magnitude
 
-* `fbodyaccmeanx`        
+       Values [-1 to 1] 
+       
+* `fbodyaccmeanx`      
 
-* `fbodyaccmeany`        
+       ean of the frequency domain signal for body acceleration in X axis
+
+       Values [-1 to 1] 
+       
+* `fbodyaccmeany`  
+
+       Mean of the frequency domain signal for body acceleration in Y axis
+
+       Values [-1 to 1] 
 
 * `fbodyaccmeanz`    
-   
+
+       Mean of the frequency domain signal for body acceleration in Z axis
+
+       Values [-1 to 1] 
+  
 *`fbodyaccjerkmeanx`    
 
-* `fbodyaccjerkmeany`    
+       Mean of the frequency domain signal for body acceleration jerk in X axis
 
-* `fbodyaccjerkmeanz`    
+       Values [-1 to 1] 
 
-* `fbodygyromeanx`       
+* `fbodyaccjerkmeany` 
 
-* `fbodygyromeany`   
-   
-* `fbodygyromeanz`      
+       Mean of the frequency domain signal for body acceleration jerk in Y axis
 
-* `fbodyaccmagmean`      
+       Values [-1 to 1] 
+       
+* `fbodyaccjerkmeanz`   
 
+       Mean of the frequency domain signal for body acceleration jerk in Z axis
+
+       Values [-1 to 1] 
+       
+* `fbodygyromeanx`  
+
+       Mean of the frequency domain signal for body gyroscope in X axis
+
+       Values [-1 to 1] 
+
+* `fbodygyromeany`
+
+       Mean of the frequency domain signal for body gyroscope in Y axis
+
+       Values [-1 to 1]  
+       
+* `fbodygyromeanz`  
+
+       Mean of the frequency domain signal for body gyroscope in Z axis
+
+       Values [-1 to 1]  
+       
+* `fbodyaccmagmean`  
+
+       Mean of the frequency domain signal for body gyroscope in Z axis
+
+       Values [-1 to 1]  
+       
 * `fbodyaccjerkmagmean`  
 
-`fbodygyromagmean`     
+       Mean of the frequency domain signal for body acceleration jerk
 
-`fbodygyrojerkmagmean`
+       Values [-1 to 1]  
+       
+* `fbodygyromagmean`   
 
-*`tbodyaccstdx`        
+       Mean of the frequency domain signal for body gyroscope magnitude
 
- `tbodyaccstdy`         
+       Values [-1 to 1]  
+       
+* `fbodygyrojerkmagmean`
 
-`tbodyaccstdz`         
+       Mean of the frequency domain signal for body gyroscope jerk magnitude
 
-`tgravityaccstdx`      
+       Values [-1 to 1]  
+       
+* `tbodyaccstdx`        
 
-`tgravityaccstdy`  
+       Standard deviation of the time domain signal for body acceleration in X axis
+
+       Values [-1 to 1]  
+       
+* `tbodyaccstdy`         
+
+       Standard deviation of the time domain signal for body acceleration in Y axis
+
+       Values [-1 to 1]  
+       
+* `tbodyaccstdz`         
+
+       Standard deviation of the time domain signal for body acceleration in Z axis
+
+       Values [-1 to 1]  
+     
+* `tgravityaccstdx`      
+
+       Standard deviation of the time domain signal for gravity acceleration in X axis
+
+       Values [-1 to 1]  
+     
+* `tgravityaccstdy`  
+
+       Standard deviation of the time domain signal for gravity acceleration in Y axis
+
+       Values [-1 to 1]  
    
-* `tgravityaccstdz`      
+* `tgravityaccstdz` 
 
-`tbodyaccjerkstdx`     
+       Standard deviation of the time domain signal for gravity acceleration in Z axis
 
-`tbodyaccjerkstdy`    
+       Values [-1 to 1]  
 
- `tbodyaccjerkstdz`    
+* `tbodyaccjerkstdx`     
 
- `tbodygyrostdx`   
-    
+       Standard deviation of the time domain signal for body acceleration jerk in X axis
+
+       Values [-1 to 1]  
+
+* `tbodyaccjerkstdy`    
+
+       Standard deviation of the time domain signal for body acceleration jerk in Y axis
+
+       Values [-1 to 1]  
+
+* `tbodyaccjerkstdz`    
+
+       Standard deviation of the time domain signal for body acceleration jerk in Z axis
+
+       Values [-1 to 1]  
+
+* `tbodygyrostdx`   
+  
+       Standard deviation of the time domain signal for gyroscope in X axis
+
+       Values [-1 to 1]  
+  
 * `tbodygyrostdy`        
+  
+       Standard deviation of the time domain signal for gyroscope in Y axis
 
-`tbodygyrostdz`        
+       Values [-1 to 1]  
+  
+* `tbodygyrostdz`        
+  
+       Standard deviation of the time domain signal for gyroscope in Z axis
 
-`tbodygyrojerkstdx`    
+       Values [-1 to 1]  
+       
+* `tbodygyrojerkstdx`    
+  
+       Standard deviation of the time domain signal for gyroscope jerk in X axis
 
-`tbodygyrojerkstdy`    
+       Values [-1 to 1]  
+       
+* `tbodygyrojerkstdy`    
+  
+       Standard deviation of the time domain signal for gyroscope jerk in Y axis
 
-`tbodygyrojerkstdz`  
- 
+       Values [-1 to 1]  
+       
+* `tbodygyrojerkstdz`  
+   
+       Standard deviation of the time domain signal for gyroscope jerk in Z axis
+
+       Values [-1 to 1]  
+       
 * `tbodyaccmagstd` 
+
+       Standard deviation of the time domain signal for acceleration magnitude
+
+       Values [-1 to 1]  
       
-`tgravityaccmagstd`    
+* `tgravityaccmagstd`    
 
-`tbodyaccjerkmagstd`   
+       Standard deviation of the time domain signal for gravity acceleration magnitude
 
-`tbodygyromagstd`      
+       Values [-1 to 1]  
+      
+* `tbodyaccjerkmagstd`   
 
-`tbodygyrojerkmagstd` 
+       Standard deviation of the time domain signal for gravity acceleration magnitude
 
+       Values [-1 to 1]  
+    
+* `tbodygyromagstd`      
+
+       Standard deviation of the time signal for body gyroscope magnitude
+       
+       Values [-1 to 1]  
+    
+* `tbodygyrojerkmagstd` 
+
+       Standard deviation of the time signal for the body gyroscope magnitude
+       
+       Values [-1 to 1] 
+       
 * `fbodyaccstdx`        
 
- `fbodyaccstdy`        
+       Standard deviation of the frequency signal for the acceleration in the X axis
+       
+       Values [-1 to 1] 
+       
+* `fbodyaccstdy`        
 
- `fbodyaccstdz`         
+       Standard deviation of the frequency signal for the body acceleration in the Y axis
+       
+       Values [-1 to 1] 
+       
+* `fbodyaccstdz`         
 
-`fbodyaccjerkstdx`    
+       Standard deviation of the frequency signal for the body acceleration in the Z axis
+       
+       Values [-1 to 1] 
+       
+* `fbodyaccjerkstdx`   
 
- `fbodyaccjerkstdy`    
+       Standard deviation of the frequency signal for the body acceleration jerk  in the X axis
+       
+       Values [-1 to 1] 
 
+* `fbodyaccjerkstdy`    
+
+       Standard deviation of the frequency signal for the body acceleration jerk in the Y axis
+       
+       Values [-1 to 1] 
+       
 * `fbodyaccjerkstdz`    
 
- `fbodygyrostdx`       
+       Standard deviation of the frequency signal for the body acceleration jerk in the Z axis
+       
+       Values [-1 to 1] 
+       
+* `fbodygyrostdx`      
 
- `fbodygyrostdy`        
+       Standard deviation of the frequency signal for the body gyroscope in the X axis
+       
+       Values [-1 to 1] 
 
-`fbodygyrostdz`       
+* `fbodygyrostdy`        
 
- `fbodyaccmagstd` 
-     
+       Standard deviation of the frequency signal for the body gyroscope in the Y axis
+       
+       Values [-1 to 1] 
+       
+* `fbodygyrostdz`       
+
+       Standard deviation of the frequency signal for the body gyroscope in the Z axis
+       
+       Values [-1 to 1] 
+       
+* `fbodyaccmagstd` 
+
+       Standard deviation of the frequency signal for the body acceleration magnitude 
+       
+       Values [-1 to 1] 
+       
 * `fbodyaccjerkmagstd`   
 
-`fbodygyromagstd`      
+       Standard deviation of the frequency signal for the body acceleration jerk magnitude 
+       
+       Values [-1 to 1] 
 
-`fbodygyrojerkmagstd` 
+* `fbodygyromagstd`      
+
+       Standard deviation of the frequency signal for the body gyroscope magnitude 
+       
+       Values [-1 to 1] 
+       
+* `fbodygyrojerkmagstd` 
+
+       Standard deviation of the frequency signal for the body gyroscope jerk magnitude 
+       
+       Values [-1 to 1] 
