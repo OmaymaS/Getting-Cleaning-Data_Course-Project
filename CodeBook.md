@@ -43,9 +43,9 @@ which gives (8*3+9)signals*2=66 variable.
 
 * `tbodyaccmeanx` 
 
-**Mean of the time domain signal for body acceleration in the X axis
+       Mean of the time domain signal for body acceleration in the X axis
 
-**Values [-1 to 1]       
+       Values [-1 to 1]       
 
 * `tbodyaccmeany`        
 
