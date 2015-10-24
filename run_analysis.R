@@ -25,8 +25,7 @@ subject_merged<-rbind(subject_train,subject_test)
 
 # Step 2
 # get all feature names
-#read features and activities' labels
-activity_labels<-read.table("activity_labels.txt")
+#read features names
 features_list<-read.table("features.txt") #In this data set: (8*3+9) signals *17 estimated variables =561
 features_names<-features_list[[2]] #or features_names<-features_list$V2
 
@@ -68,7 +67,8 @@ tidy_data_arranged<-arrange(tidy_data,subject)
 # tidy_data_df[[2]]<-activity_labels[[2]][tidy_data_df[[2]]]
 
 # Step 3
-# replace  activity numbers by activity labels
+# read activity labels and replace  activity numbers by activity labels
+activity_labels<-read.table("activity_labels.txt")
 tidy_data_arranged[[2]]<-activity_labels[[2]][tidy_data_arranged[[2]]]
 
 # write the data to a new file
