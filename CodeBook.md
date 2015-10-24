@@ -35,8 +35,16 @@ The set of variables that were estimated from these signals and extracted by run
 
 which gives (8*3+9)signals*2=66 variable.
 
+**Notes: 
+
+======
+
+- Features are normalized and bounded within [-1,1].**
+
 * `tbodyaccmeanx` 
-**Time body acceleration mean
+
+**Mean of the time domain signal for body acceleration in the X axis
+
 **Values [-1 to 1]       
 
 * `tbodyaccmeany`        
