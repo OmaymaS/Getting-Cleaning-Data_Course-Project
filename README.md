@@ -1,4 +1,4 @@
-# Getting-Cleaning-Data_Course-Project
+# Getting and Cleaning Data (Course Project)
 -------------
 ##Introduction
 
