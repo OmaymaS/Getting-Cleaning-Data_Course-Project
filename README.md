@@ -2,10 +2,14 @@
 -------------
 ##Introduction
 
-This project is part of Coursera's "Getting and Cleaning Data" Course. The run_analysis.R is used to process data obtained from certain experiments in order to create a new data set with some criteria. The experiements were carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities, wearing a smartphone (Samsung Galaxy S II) on the waist (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
+This project is part of Coursera's "Getting and Cleaning Data" Course. The `run_analysis.R` is used to process data obtained from certain experiments in order to create a new data set with some criteria. The experiements were carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities, wearing a smartphone (Samsung Galaxy S II) on the waist (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
 
-The sensor signals(accelerometer and gyroscope) were recorded, pre-processed and used to calculate certain variables from the time and frequency domain.
+The sensor signals(accelerometer and gyroscope) were recorded, pre-processed and used to calculate certain variables from the time and frequency domain. The data is preocessed through `run_analysis.R` and the output is an independent tidy data set with the average of each variable for each activity and each subject.
 
+##Repository Contents:
+* [run_analysis.R](https://github.com/OmaymaS/Getting-Cleaning-Data_Course-Project/blob/master/run_analysis.R)
+* [README.md](https://github.com/OmaymaS/Getting-Cleaning-Data_Course-Project/blob/master/README.md)
+* [CodeBook.md](https://github.com/OmaymaS/Getting-Cleaning-Data_Course-Project/blob/master/CodeBook.md)
 
 ##Original Data
 
@@ -59,7 +63,7 @@ The **run_analysis.R** performs the following:
 -The final output `tidy_data_arranged` (dim 180*68) is exported and written to a new text file `Samsung_mean_std_data.txt`.
 
 #Code Book
-The code book describes the variables in the final tidy data set.
+The [code book](https://github.com/OmaymaS/Getting-Cleaning-Data_Course-Project/blob/master/CodeBook.md) describes the variables in the final tidy data set.
 
 
  
