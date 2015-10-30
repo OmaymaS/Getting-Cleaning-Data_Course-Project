@@ -33,7 +33,28 @@ The set of variables that were estimated from these signals and extracted by run
 
 * std(): Standard deviation
 
-which gives (8*3+9)signals*2=66 variable.
+which gives (8\*3\+9)signals\*2=66 variable.
+
+###First column: Subject
+
+-The subjects participating in the experiment 
+
+-Values [1-30]
+
+###Second column: Activity
+
+-The activity done by the subject
+
+-values [
+*1 WALKING
+*2 WALKING_UPSTAIRS
+*3 WALKING_DOWNSTAIRS
+*4 SITTING
+*5 STANDING
+*6 LAYING
+]
+
+###Rest of the columns: Features
 
 **Notes: Features are normalized and bounded within [-1,1].**
 
