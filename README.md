@@ -10,6 +10,7 @@ The sensor signals(accelerometer and gyroscope) were recorded, pre-processed and
 * [run_analysis.R](https://github.com/OmaymaS/Getting-Cleaning-Data_Course-Project/blob/master/run_analysis.R)
 * [README.md](https://github.com/OmaymaS/Getting-Cleaning-Data_Course-Project/blob/master/README.md)
 * [CodeBook.md](https://github.com/OmaymaS/Getting-Cleaning-Data_Course-Project/blob/master/CodeBook.md)
+* [Samsung_mean_std_data.txt](https://github.com/OmaymaS/Getting-Cleaning-Data_Course-Project/blob/master/Samsung_mean_std_data.txt)
 
 ##Original Data
 
